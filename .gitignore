@@ -2,3 +2,5 @@
 compile_commands.json
 .cache
 reference-plugin
+plugin-1/Builds/LinuxMakefile/build
+plugin-1/Builds/LinuxMakefile/pre_build
