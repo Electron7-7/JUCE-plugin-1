@@ -1,0 +1,4 @@
+*.sublime*
+compile_commands.json
+.cache
+.cache/**
