@@ -27,7 +27,7 @@ public:
 
         mainWindow.reset (new MainWindow (getApplicationName()));
         mainWindow.get()->setName("Some Plugin");
-        mainWindow.get()->getLookAndFeel().setColour(mainWindow.get()->backgroundColourId, juce::Colour::fromFloatRGBA(0.2f, 0.5f, 1.0f, 1.0f));
+        mainWindow.get()->getLookAndFeel().setColour(mainWindow.get()->backgroundColourId, juce::Colour::fromFloatRGBA(0.3f, 0.4f, 0.5f, 1.0f));
         mainWindow.get()->repaint();
     }
 
