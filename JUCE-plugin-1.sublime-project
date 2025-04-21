@@ -1,0 +1,31 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build + Run",
+			"working_dir": "${project_path}/plugin-1/Builds/LinuxMakefile",
+			"shell_cmd": "make && ./build/plugin1Debug",
+		},
+		{
+			"name": "Build",
+			"working_dir": "${project_path}/plugin-1/Builds/LinuxMakefile",
+			"shell_cmd": "make",
+		},
+		{
+			"name": "Clean",
+			"working_dir": "${project_path}/plugin-1/Builds/LinuxMakefile",
+			"shell_cmd": "make clean",
+		},
+		{
+			"name": "Run",
+			"working_dir": "${project_path}/plugin-1/Builds/LinuxMakefile",
+			"shell_cmd": "./build/plugin1Debug",
+		},
+	],
+}
